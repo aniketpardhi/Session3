@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    /* border-bottom: 2px solid #f3f3f3; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999;
+   padding: 10px 30px;
+}
+input{
+    padding: 12px 20px;
+    border: none;
+    background: #f7f6f6;
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 14rem;
+    position: relative;
+
+}
+input::placeholder{
+    text-transform: capitalize;
+    color: black;
+}
+.nav-icons{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2rem;
+}
